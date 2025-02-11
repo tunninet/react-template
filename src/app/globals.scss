@@ -1,25 +1,28 @@
-// next.config.mjs
+// ✅ Fix Bootstrap SCSS import order
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    reactStrictMode: true,
-    images: {
-      unoptimized: true,
-      dangerouslyAllowSVG: true,
-      contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-      remotePatterns: [
-        {
-          protocol: "https",
-          hostname: "s3.ny5.os.tunninet.com",
-          pathname: "/**",
-        },
-      ],
-    },
-    experimental: {
-      optimizeCss: false, // Prevents Next.js from prefetching Google Fonts
-      legacyBrowsers: false, // Ensures modern JavaScript support
-    },
-    webpack: (config) => config,
-  };
-  
-  export default nextConfig;
+@use "bootstrap/scss/functions" as *;
+@use "bootstrap/scss/variables" as *;
+@use "bootstrap/scss/maps" as *;
+@use "bootstrap/scss/mixins" as *;
+@use "bootstrap" as *;
+
+// ✅ Ensure SCSS rules are correctly formatted
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
+
+body {
+  font-family: var(--tp-ff-body, sans-serif);
+  background-color: var(--primary-color);
+}
+
+// ✅ Remove invalid SCSS block
+
+// ✅ Import third-party styles
+@use "swiper/swiper-bundle" as *;
+@use "slick-carousel/slick/slick" as *;
+@use "react-modal-video/scss/modal-video" as *;
+
+// ✅ Import custom styles
+@use "../../public/assets/scss/main.scss" as *;

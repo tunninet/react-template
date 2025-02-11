@@ -1,43 +1,26 @@
 import "./globals.scss";
 import PropTypes from "prop-types";
-import {
-  DM_Serif_Display,
-  Montserrat_Alternates,
-  Plus_Jakarta_Sans,
-  Urbanist,
-} from "next/font/google";
+import localFont from "next/font/local";
 
-// ✅ Define fonts with Next.js 15+ Metadata API
-const dmSerifDisplay = DM_Serif_Display({
-  weight: ["400"],
-  subsets: ["latin"],
+// ✅ Self-hosted Fonts (Fix Google Fonts Download Issue)
+const dmSerifDisplay = localFont({
+  src: "../public/fonts/DMSerifDisplay-Regular.ttf",
   variable: "--tp-ff-dm",
-  display: "swap",
-  adjustFontFallback: false,
 });
 
-const montserratAlternates = Montserrat_Alternates({
-  weight: ["300", "400", "500", "600", "700", "800"],
-  subsets: ["latin"],
+const montserratAlternates = localFont({
+  src: "../public/fonts/MontserratAlternates-Regular.ttf",
   variable: "--tp-ff-mont",
-  display: "swap",
-  adjustFontFallback: false,
 });
 
-const plusJakartaSans = Plus_Jakarta_Sans({
-  weight: ["300", "400", "500", "600", "700", "800"],
-  subsets: ["latin"],
-  variable: ["--tp-ff-body", "--tp-ff-heading"],
-  display: "swap",
-  adjustFontFallback: false,
+const plusJakartaSans = localFont({
+  src: "../public/fonts/PlusJakartaSans-Regular.ttf",
+  variable: "--tp-ff-body",
 });
 
-const urbanist = Urbanist({
-  weight: ["300", "400", "500", "600", "700", "800"],
-  subsets: ["latin"],
+const urbanist = localFont({
+  src: "../public/fonts/Urbanist-Regular.ttf",
   variable: "--tp-ff-urban",
-  display: "swap",
-  adjustFontFallback: false,
 });
 
 export const metadata = {
