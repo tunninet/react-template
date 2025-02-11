@@ -1,0 +1,17 @@
+// ALL @use rules must come at the very top of the file.
+
+// 1. Import Bootstrap dependencies using @use in the proper order.
+@use "bootstrap/scss/functions" as *;
+@use "bootstrap/scss/variables" as *;
+@use "bootstrap/scss/mixins" as *;
+
+// 2. Import Bootstrap’s full library (which relies on the above dependencies).
+@use "bootstrap" as *;
+
+// 3. Import third‑party Sass modules (if they provide a Sass module interface).
+@use "swiper/swiper-bundle" as *;
+@use "slick-carousel/slick/slick" as *;
+@use "react-modal-video/scss/modal-video" as *;
+
+// 4. Finally, import your custom styles.
+@use "../../public/assets/scss/main.scss" as *;
