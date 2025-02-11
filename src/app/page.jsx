@@ -1,4 +1,4 @@
-import Wrapper from "@/layouts/wrapper";
+import Wrapper from "@/layout/wrapper";
 import HomeOne from "@/components/homes/home";
 
 export const metadata = {

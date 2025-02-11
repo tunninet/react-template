@@ -1,5 +1,5 @@
 
-import Wrapper from "@/layouts/wrapper";
+import Wrapper from "@/layout/wrapper";
 import Integrations from "@/components/integrations";
 
 export const metadata = {

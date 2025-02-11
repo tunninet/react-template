@@ -1,4 +1,4 @@
-import Wrapper from "@/layouts/wrapper";
+import Wrapper from "@/layout/wrapper";
 import SignIn from "@/components/sign-in";
 
 export const metadata = {

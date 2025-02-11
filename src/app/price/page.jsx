@@ -1,5 +1,5 @@
 import Price from "@/components/price";
-import Wrapper from "@/layouts/wrapper";
+import Wrapper from "@/layout/wrapper";
 
 export const metadata = {
   title: "Pricing Page - Softec",

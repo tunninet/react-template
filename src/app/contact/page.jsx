@@ -1,5 +1,5 @@
 import Contact from "@/components/contact";
-import Wrapper from "@/layouts/wrapper";
+import Wrapper from "@/layout/wrapper";
 
 export const metadata = {
   title: "Contact Page - Softec",

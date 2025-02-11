@@ -1,4 +1,4 @@
-import Wrapper from "@/layouts/wrapper";
+import Wrapper from "@/layout/wrapper";
 import BlogDetails from "@/components/blog-details";
 
 export const metadata = {
