@@ -1,8 +1,8 @@
 'use client';
 import BreadcrumbTwo from "@/common/breadcrumbs/breadcrumb-2";
 import TestimonialArea from "@/common/testimonial-area";
-import FooterFive from "@/layout/footers/footer-5";
-import HeaderSix from "@/layout/headers/header-6";
+import FooterFive from "@/layouts/footers/footer-5";
+import HeaderSix from "@/layouts/headers/header-6";
 import ServiceDetailsArea from "./service-details-area";
 
 const ServiceDetails = () => {

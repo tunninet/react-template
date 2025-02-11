@@ -1,7 +1,7 @@
 "use client";
 import BreadcrumbTwo from "@/common/breadcrumbs/breadcrumb-2";
-import FooterFive from "@/layout/footers/footer-5";
-import HeaderSix from "@/layout/headers/header-6";
+import FooterFive from "@/layouts/footers/footer-5";
+import HeaderSix from "@/layouts/headers/header-6";
 import JobArea from "../about/job-area";
 import CtaArea from "../contact/cta-area";
 import CareerDetailsArea from "./career-details-area";

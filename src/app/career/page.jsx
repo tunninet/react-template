@@ -1,5 +1,5 @@
 import Career from "@/components/career";
-import Wrapper from "@/layout/wrapper";
+import Wrapper from "@/layouts/wrapper";
 
 export const metadata = {
   title: "Career Page - Softec",

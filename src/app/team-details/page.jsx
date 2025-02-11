@@ -1,4 +1,4 @@
-import Wrapper from "@/layout/wrapper";
+import Wrapper from "@/layouts/wrapper";
 import TeamDetails from "@/components/team-details";
 
 export const metadata = {

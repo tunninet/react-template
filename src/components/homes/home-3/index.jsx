@@ -1,6 +1,6 @@
 'use client';
-import FooterThree from "@/layout/footers/footer-3";
-import HeaderThree from "@/layout/headers/header-3";
+import FooterThree from "@/layouts/footers/footer-3";
+import HeaderThree from "@/layouts/headers/header-3";
 import TestimonialArea from "../home-3/testimonial-area";
 import BlogArea from "./blog-area";
 import CardArea from "../../../common/card-area";

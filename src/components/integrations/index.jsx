@@ -1,7 +1,7 @@
 'use client';
 import BreadcrumbFour from "@/common/breadcrumbs/breadcrumb-4";
-import FooterFive from "@/layout/footers/footer-5";
-import HeaderSix from "@/layout/headers/header-6";
+import FooterFive from "@/layouts/footers/footer-5";
+import HeaderSix from "@/layouts/headers/header-6";
 import IntegrationArea from "../homes/home-3/integration-area";
 import FeatureArea from "../homes/home-5/feature-area";
 

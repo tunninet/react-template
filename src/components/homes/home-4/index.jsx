@@ -1,7 +1,7 @@
 'use client';
 import PriceArea from "@/common/price-area";
-import FooterFour from "@/layout/footers/footer-4";
-import HeaderFour from "@/layout/headers/header-4";
+import FooterFour from "@/layouts/footers/footer-4";
+import HeaderFour from "@/layouts/headers/header-4";
 import AboutArea from "./about-area";
 import BlogArea from "./blog-area";
 import BrandArea from "./brand-area";

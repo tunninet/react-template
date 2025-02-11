@@ -1,7 +1,7 @@
 'use client';
-import HeaderSix from "@/layout/headers/header-6";
+import HeaderSix from "@/layouts/headers/header-6";
 import BreadcrumbTwo from "@/common/breadcrumbs/breadcrumb-2";
-import FooterFive from "@/layout/footers/footer-5";
+import FooterFive from "@/layouts/footers/footer-5";
 import BlogGrid from "../blog/blog-grid";
 import CtaArea from "../contact/cta-area";
 import Portfolio from "./portfolio";

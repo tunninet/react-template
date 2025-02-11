@@ -1,7 +1,7 @@
 'use client';
 import ContextProvider from "@/context/ContextProvider";
-import FooterFive from "@/layout/footers/footer-5";
-import HeaderFive from "@/layout/headers/header-5";
+import FooterFive from "@/layouts/footers/footer-5";
+import HeaderFive from "@/layouts/headers/header-5";
 import BusinessBox from "./business-box";
 import CtaArea from "./cta-area";
 import FeatureArea from "./feature-area";

@@ -1,6 +1,6 @@
 'use client';
-import FooterTwo from "@/layout/footers/footer-2";
-import HeaderTwo from "@/layout/headers/header-2";
+import FooterTwo from "@/layouts/footers/footer-2";
+import HeaderTwo from "@/layouts/headers/header-2";
 import CtaArea from "./cta-area";
 import FaqArea from "./faq-area";
 import HeroArea from "./hero-area";

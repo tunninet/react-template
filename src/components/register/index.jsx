@@ -1,5 +1,5 @@
 'use client';
-import HeaderSeven from "@/layout/headers/header-7"; 
+import HeaderSeven from "@/layouts/headers/header-7"; 
 import RegisterArea from "./register-area";
 
 const Register = () => {

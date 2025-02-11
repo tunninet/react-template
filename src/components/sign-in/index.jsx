@@ -1,6 +1,6 @@
 'use client';
-import FooterFive from "@/layout/footers/footer-5";
-import HeaderSeven from "@/layout/headers/header-7"; 
+import FooterFive from "@/layouts/footers/footer-5";
+import HeaderSeven from "@/layouts/headers/header-7"; 
 import SingnInArea from "./singn-in-area";
 
 const SignIn = () => {

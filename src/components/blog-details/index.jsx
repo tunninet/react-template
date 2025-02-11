@@ -1,8 +1,8 @@
 'use client';
 import Banner from "./banner";
 import BreadcrumbSix from "@/common/breadcrumbs/breadcrumb-6";
-import FooterFive from "@/layout/footers/footer-5";
-import HeaderSix from "@/layout/headers/header-6";
+import FooterFive from "@/layouts/footers/footer-5";
+import HeaderSix from "@/layouts/headers/header-6";
 import Portfolio from "./portfolio";
 import PostboxArea from "./postbox-area";
 
