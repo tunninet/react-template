@@ -1,28 +1,5 @@
-// ✅ Fix Bootstrap SCSS import order
-
-@use "bootstrap/scss/functions" as *;
-@use "bootstrap/scss/variables" as *;
-@use "bootstrap/scss/maps" as *;
-@use "bootstrap/scss/mixins" as *;
-@use "bootstrap" as *;
-
-// ✅ Ensure SCSS rules are correctly formatted
-:root {
-  --primary-color: #007bff;
-  --secondary-color: #6c757d;
-}
-
-body {
-  font-family: var(--tp-ff-body, sans-serif);
-  background-color: var(--primary-color);
-}
-
-// ✅ Remove invalid SCSS block
-
-// ✅ Import third-party styles
-@use "swiper/swiper-bundle" as *;
-@use "slick-carousel/slick/slick" as *;
-@use "react-modal-video/scss/modal-video" as *;
-
-// ✅ Import custom styles
-@use "../../public/assets/scss/main.scss" as *;
+@import "node_modules/react-modal-video/scss/modal-video.scss";
+@import "slick-carousel/slick/slick.css"; 
+@import "~bootstrap/scss/bootstrap";
+@import "swiper/css/bundle"; 
+@import "../../public/assets/scss/main.scss";
